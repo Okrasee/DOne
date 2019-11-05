@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/BgCon">
+
+    <LinearLayout
+        android:id="@+id/confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:gravity="center|top"
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle21">
+
+            <TextView
+                android:id="@+id/deleteInfo"
+                android:paddingLeft="15dp"
+                android:paddingRight="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Finished?"
+                android:gravity="center_vertical"
+                android:textColor="@color/darkGray"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="280dp"
+            android:layout_height="2dp"
+            android:visibility="visible"
+            android:background="@color/darkGray"/>
+        <LinearLayout
+            android:id="@+id/detail"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle2"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/no">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="No"
+                    android:gravity="center"
+                    android:textColor="@color/darkGray"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/darkGray"
+                android:layout_gravity="center_vertical"/>
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:id="@+id/yes">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Yes"
+                    android:gravity="center"
+                    android:textColor="@color/alert" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

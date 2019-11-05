@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme = "@style/AppTheme.NoActionBar"
+    android:layout_width="280dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center|top"
+    tools:context=".MainActivity"
+    android:background="@color/canvas"
+    android:layout_marginTop="48dp">
+    <EditText
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:id="@+id/Description"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:hint="Description..."
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:imeOptions="actionDone"/>
+</LinearLayout>

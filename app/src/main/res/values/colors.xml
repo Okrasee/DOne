@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightGray">#EBEBEB</color>
+    <color name="darkGray">#4F4F4F</color>
+    <color name="newTask">#C9A489</color>
+    <color name="canvas">#FFFFFF</color>
+    <color name="button">#322113</color>
+    <color name="color1">#D5C8B8</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="edit">#C0C0C0</color>>
+    <color name="alert">#C83C23</color>
+
+</resources>
