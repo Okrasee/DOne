@@ -11,12 +11,7 @@ public class ViewAnimFactory {
 
 
     private View view;
-
-    /**
-     * 改变大小
-     *
-     * @param width
-     */
+    
     public void setWidth(int width) {
         view.getLayoutParams().width = width;
         view.requestLayout();
