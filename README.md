@@ -5,6 +5,8 @@ My GTD app, named 'DOne', has two major features:
 1. group similar to-dos under the same category;
 2. sort them by time or by category.
 
+The app is published on Google Play: <https://play.google.com/store/apps/details?id=com.yirui.done>
+
 ## My Role
 Sketching, Prototyping, User interface design, User study, Android development
 
