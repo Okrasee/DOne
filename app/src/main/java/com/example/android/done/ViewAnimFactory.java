@@ -3,10 +3,6 @@ package com.example.android.done;
 import android.util.Log;
 import android.view.View;
 
-/**
- * Created by 14178 on 2017/12/21.
- */
-
 public class ViewAnimFactory {
 
 
