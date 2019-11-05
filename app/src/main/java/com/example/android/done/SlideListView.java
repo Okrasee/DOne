@@ -103,19 +103,17 @@ public class SlideListView extends ListView {
     private void scrollRight() {
         removeDirection = RemoveDirection.RIGHT;
         final int delta = (screenWidth + itemView.getScrollX());
-        // 调用startScroll方法来设置一些滚动的参数，我们在computeScroll()方法中调用scrollTo来滚动item
         scroller.startScroll(itemView.getScrollX(), 0, -delta, 0,
                 Math.abs(delta));
-        postInvalidate(); // 刷新itemView
+        postInvalidate(); 
     }
 
     private void scrollLeft() {
         removeDirection = RemoveDirection.LEFT;
         final int delta = (screenWidth - itemView.getScrollX());
-        // 调用startScroll方法来设置一些滚动的参数，我们在computeScroll()方法中调用scrollTo来滚动item
         scroller.startScroll(itemView.getScrollX(), 0, delta, 0,
                 Math.abs(delta));
-        postInvalidate(); // 刷新itemView
+        postInvalidate(); 
     }
 
     private void scrollByDistanceX() {
