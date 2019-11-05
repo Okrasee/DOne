@@ -1,5 +1,5 @@
 # DOne
-I learnt Android development to go beyond ux design and building a GTD (getting things done) app is a good kickoff for practice.
+I learnt Android development to go beyond UX design and building a GTD (getting things done) app is a good kickoff for practice.
 
 My GTD app, named 'DOne', has two major features:
 1. group similar to-dos under the same category;
