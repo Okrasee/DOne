@@ -15,7 +15,7 @@ The layout and content of the top corers is inspired by Mike Zhou’s “Listify
 
 
 ## Features & Refinement
-### * Categorization
+### Categorization
 
 After receiving feedback through user testing, I decided to categorize the tasks rather than throwing all sorts of tasks onto the same screen. I implemented this feature by the use of **Expandable ListView**. Each category is displayed as a group view and its to-dos are child views. One could click on the category view to expand/fold the to-dos to make the interface more concise and easier to browse through.
 <p align = "center">
